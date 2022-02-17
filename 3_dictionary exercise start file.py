@@ -66,7 +66,7 @@ def deal_cards(deck, number):
     
 
     # Deal the cards and accumulate their values.
-    for count in range(number):
+    for card in range(number):
         card = random.choice(list(deck)) 
         print(card) 
         value = deck[card]
